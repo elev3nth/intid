@@ -1,0 +1,16 @@
+{
+  "name": "intid",
+  "version": "1.3.0",
+  "description": "Generate Numeric Id Based on Nano Seconds",
+  "main": "index.js",
+  "repository": "https://github.com/elev3nth/intid",
+  "author": "Allan Celedonio",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "id",
+    "integer id",
+    "unique id",
+    "nano seconds"
+  ]
+}
