@@ -7,11 +7,6 @@ function generate(type, string, separator, characters) {
     var nanotime  = hourtime[0] * 1000000000 + hourtime[1];
     var intcreate = parseInt(nanotime.toString().replace('.', '0'));
 
-    // Check If Negative Number Remove Negative Sign
-    if (intcreate < 0){
-        intcreate = parseInt(intcreate.toString().replace('-', ''));
-    }
-
     if (type != undefined &&  string !=  undefined && separator != undefined) {
         if ((characters != undefined) && Number(characters * 1)) {
             let intlimits = Number(characters * 1);
